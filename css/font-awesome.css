@@ -96,37 +96,6 @@
     src: url('src/fonts/UbuntuMediumItalic.ttf');
     format('typertype');
 }
-.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #7289da;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
-
-.button:hover {
-    background-color: #9fb9ff;
-}
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.button:active {
-  background-color: #7583b6;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-hr {
-    border-style: solid;
-    margin: -8px;
-}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     font-family: 'Roboto', sans-serif;
