@@ -29,6 +29,7 @@ h1.login-title {
 }
 .login-input:focus {
     border-color:#6e8095;
+    border-padding: 5px;
     color: #fff;
     outline: none;
 }
