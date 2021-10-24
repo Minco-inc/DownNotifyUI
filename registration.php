@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Registration</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <form class="form" action="" method="post">
@@ -23,7 +22,7 @@
 </div>
 <!-- END Bootstrap-Cookie-Alert -->
 <!-- Include cookiealert script -->
-<script src="js/cookiealert.js"></script>
+<script src="js/script.js"></script>
     <link rel="stylesheet" href="css/cookiealert.css">
 </body>
 </html>
