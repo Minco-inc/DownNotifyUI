@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <title>Login</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
 <?php
@@ -22,7 +22,7 @@
 </div>
 <!-- END Bootstrap-Cookie-Alert -->
 <!-- Include cookiealert script -->
-<script src="js/cookiealert.js"></script>
-    <link rel="stylesheet" href="css/cookiealert.css">
+<script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/cookie.css">
 </body>
 </html>
