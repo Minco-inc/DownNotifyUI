@@ -1,5 +1,6 @@
 <html>
   <title>Forgot Username - DownNotify</title>
+  <script src="https://kit.fontawesome.com/3a6bf539fa.js" crossorigin="anonymous"></script>
   <style>
         body {
     background: #23272A;
@@ -24,7 +25,7 @@ h1.login-title {
 .login-input {
     font-size: 15px;
     border: 2px solid #ddd;
-    padding: 10px;
+    padding: 24px;
     color: #fff;
     margin-bottom: 25px;
     padding-left: 34px;
@@ -209,11 +210,11 @@ h3 {
   transform: translateY(4px);
 }
   </style>
-  <form class="form" method="post" name="forget-pass">
+  <form class="form" method="post" name="forget-username">
     <h1 class="login-title" style="font-family: 'DiscordHeavy';">Forget Username</h1>
     <p class="link" style="font-family: 'Ubuntu';">We send to your email for a link for confirmation, please enter your email.</p><br>
     <i class="fa fa-at" style="font-size: 20px; position: relative; top: 35px; left: 10px; color: lightgray;"></i><input type="text" class="login-input" name="email" style="font-family: 'Ubuntu'; color: #000;" placeholder="Email Address">
-    <center><input type="submit" name="submit" style="font-family: 'DiscordThin'; float: right;" value="Recover Password" class="button"></center>
+    <center><input type="submit" name="submit" style="font-family: 'DiscordThin'; float: right;" value="Recover" class="button"></center>
     <p class="link" style="font-family: 'Ubuntu';">Want to cancel? <a href="login.php">Cancel now</a>!</p>
     <br><br>
   </form>
