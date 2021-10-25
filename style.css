@@ -1,0 +1,251 @@
+body {
+  background-color: #23272A;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2F2F33;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+hr {
+border-style: solid;
+border-color: #fff;
+border-padding: 3px;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  float: left;
+  font-size: 31px;
+  right: 0;
+  top: 0;
+}
+.topnav a.icon:hover {
+background-color: #fff;
+color: #000;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.active:hover {
+  color: white;
+  background-color: #9fb9ff;
+}
+@font-face {
+    font-family: 'DiscordHeavyItalic';
+    src: url('fonts/Discord Heavy Italic.otf'); 
+    format('opentype');
+}
+@font-face {
+    font-family: 'DiscordHeavy';
+    src: url('fonts/Discord Heavy.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'DiscordThin';
+    src: url('fonts/Discord Thin.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'DiscordThinItalic';
+    src: url('fonts/Discord Thin Italic.otf');
+    format('opentype');
+}
+/* Minecraft Font */
+@font-face {
+    font-family: 'MinecraftTen';
+    src: url('fonts/MinecraftTen.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'MinecraftBold';
+    src: url('fonts/MinecraftBold.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'MinecraftBoldItalic';
+    src: url('fonts/Minecraft Bold Italic.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'MinecraftItalic';
+    src: url('fonts/Minecraft Italic.otf');
+    format('opentype');
+}
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/MinecraftRegular.otf');
+    format('opentype');
+}
+/* ProFontWindows */
+@font-face {
+    font-family: 'ProFontWindows';
+    src: url('fonts/ProfontWindows.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'ProFontWindowsBold';
+    src: url('fonts/ProfontWindowsBold.ttf');
+    format('typertype');
+}
+/* Ubuntu Font */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('fonts/UbuntuBold.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuBoldItalic';
+    src: url('fonts/UbuntuBoldItalic.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuItalic';
+    src: url('fonts/UbuntuItalic.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuLight';
+    src: url('fonts/UbuntuLight.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuLightItalic';
+    src: url('/fonts/UbuntuLightItalic.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('fonts/UbuntuMedium.ttf');
+    format('typertype');
+}
+@font-face {
+    font-family: 'UbuntuMediumItalic';
+    src: url('fonts/UbuntuMediumItalic.ttf');
+    format('typertype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff0000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #00ff00;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.input {
+ padding: 15px;
+ color: #000;
+ border-style: solid;
+ border-padding: 3px;
+ border-color: lightgray;
+ padding-left: 40px;
+ font-size: 20px;
+ outline: none;
+}
+.input:focus {
+ border-color: #7289da;
+}
+.button {
+  display: inline-block;
+  padding: 15px 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #7289da;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #9fb9ff;
+}
+
+.button:active {
+  background-color: #7583b6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
